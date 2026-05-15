@@ -1,0 +1,26 @@
+{
+  "linkedin_post": {
+    "content": "We don’t treat meetings as documentation at Utopia Studio — we treat them as production. Every conversation becomes a GTM asset within the hour.",
+    "launch_stage": "Amplify"
+  },
+  "follow_up_email": {
+    "to": "studio@utopia",
+    "subject": "M7 Meeting → GTM Output",
+    "body": "We’ve converted today’s session into LinkedIn content, press narrative, and structured insights. Execution speed is now the bottleneck we’ve removed."
+  },
+  "press_angle": "Utopia Studio is compressing the gap between internal conversation and public narrative using AI agents.",
+  "key_insights": [
+    "Meetings are treated as production inputs, not documentation",
+    "Speed from transcript to content is now under one hour",
+    "AI agents replace manual marketing synthesis"
+  ],
+  "metadata": {
+    "generated_at": "2026-05-14T00:00:00Z",
+    "model": "gpt-4o-mini",
+    "agent_version": "1.0"
+  },
+  "slack_payload": {
+    "channel": "#marketing-studio",
+    "text": "*M7 OUTPUT (Amplify)*\nLinkedIn post ready.\nPress angle generated.\nFollow-up email drafted."
+  }
+}
