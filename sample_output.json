@@ -1,26 +1,38 @@
 {
   "linkedin_post": {
-    "content": "We don’t treat meetings as documentation at Utopia Studio — we treat them as production. Every conversation becomes a GTM asset within the hour.",
+    "content": "Utopia Studio is streamlining its fellowship cohort onboarding process. We are committed to delivering timely content, with a goal of publishing LinkedIn posts within one hour of each session. This initiative will enhance our visibility and ensure consistent messaging. Stay tuned for more updates as we improve our automation between transcript generation and content creation.",
     "launch_stage": "Amplify"
   },
   "follow_up_email": {
-    "to": "studio@utopia",
-    "subject": "M7 Meeting → GTM Output",
-    "body": "We’ve converted today’s session into LinkedIn content, press narrative, and structured insights. Execution speed is now the bottleneck we’ve removed."
+    "to": "marketing@utopiastudio.com",
+    "subject": "Action Items from Fellowship Cohort Onboarding Discussion",
+    "body": "Dear Team,\n\nFollowing our recent discussion on the fellowship cohort onboarding process, we need to prioritize the automation of transcript to content generation. Our goal is to ensure LinkedIn posts are published within one hour of each session. Additionally, we must enhance our press visibility and maintain consistent outbound messaging.\n\nLet's implement these changes promptly to improve our outreach.\n\nBest,\n[Your Name]"
   },
-  "press_angle": "Utopia Studio is compressing the gap between internal conversation and public narrative using AI agents.",
+  "press_angle": "Utopia Studio is enhancing its content generation process to improve visibility and engagement with the fellowship cohort.",
   "key_insights": [
-    "Meetings are treated as production inputs, not documentation",
-    "Speed from transcript to content is now under one hour",
-    "AI agents replace manual marketing synthesis"
+    "Need for faster content generation from transcripts",
+    "Goal to publish LinkedIn posts within one hour",
+    "Focus on improving press visibility",
+    "Importance of consistent outbound messaging after meetings",
+    "Action items include enhancing automation between transcript and content generation."
   ],
   "metadata": {
-    "generated_at": "2026-05-14T00:00:00Z",
+    "generated_at": "2026-05-15T14:39:51.424935+00:00",
     "model": "gpt-4o-mini",
-    "agent_version": "1.0"
+    "agent_version": "M7-final",
+    "meeting_hash": "499183cee9d3"
+  },
+  "handoff": {
+    "type": "m7_content_package",
+    "ready_for": [
+      "linkedin_publisher_agent",
+      "email_agent",
+      "press_agent"
+    ],
+    "meeting_hash": "499183cee9d3"
   },
   "slack_payload": {
     "channel": "#marketing-studio",
-    "text": "*M7 OUTPUT (Amplify)*\nLinkedIn post ready.\nPress angle generated.\nFollow-up email drafted."
+    "text": "*M7 LAUNCH (Amplify)*\n\n*LinkedIn Post:*\nUtopia Studio is streamlining its fellowship cohort onboarding process. We are committed to delivering timely content, with a goal of publishing LinkedIn posts within one hour of each session. This initiative will enhance our visibility and ensure consistent messaging. Stay tuned for more updates as we improve our automation between transcript generation and content creation.\n\n*Press Angle:*\nUtopia Studio is enhancing its content generation process to improve visibility and engagement with the fellowship cohort.\n\n*Key Insight:*\n- Need for faster content generation from transcripts"
   }
 }
